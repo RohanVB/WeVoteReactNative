@@ -121,11 +121,11 @@ class SignIn extends Component {
   render () {
     var voter = this.state;
 
-    var FormField = t.struct({
-      name: t.String,
-      surname: t.String,
-      rememberMe: t.Boolean
-    });
+      var FormField = t.struct({
+        name: t.String,
+        surname: t.String,
+        rememberMe: t.Boolean
+      });
 
     if (!voter){
       return LoadingWheel;

@@ -4,7 +4,7 @@ import {
 } from 'react-navigation';
 import {AppRegistry} from 'react-native';
 //import LoadingScreen from '../../components/LoadingScreen/LoadingScreen';
-//import Ballot from '../../scenes/Ballot/Ballot';
+import Ballot from '../../scenes/Ballot/Ballot';
 //import BallotDetails from '../../components/BallotDetails/BallotDetails'
 //import Organizations from '../../components/Organizations/Organizations'
 //import Friends from '../../components/Friends/Friends'
@@ -16,6 +16,9 @@ const Tabs = TabNavigator({
   SignIn: {screen: SignIn, navigationOptions: {
     header: null,
   }},
+  /*Ballot: {screen: Ballot, navigationOptions: {
+    header: null,
+  }},*/
 },
   {
     tabBarOptions: { activeTintColor: '#e91e63',},
